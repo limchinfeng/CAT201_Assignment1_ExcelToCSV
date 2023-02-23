@@ -1,0 +1,48 @@
+.div {
+    background-color: rgb(224, 234, 252);
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+}
+
+.center {
+    justify-content: center;
+    text-align: center;
+}
+
+.body {
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'EB Garamond', serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.body::after{
+    content: "";
+    background: url('assets/Background.jpg') repeat ;
+    height: 100%;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;
+ }
+
+.content {
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+}
+
+.Piccircle {
+    height: 200px;
+    clip-path: circle();
+    margin-bottom: 0.1px;
+}
